@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_practice"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.hulijinengtong.activity.PracticeActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:baselineAligned="false"
+        tools:ignore="UselessParent">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.8"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#e8eae9"
+                tools:ignore="ObsoleteLayoutParam">
+
+                <android.support.v4.view.PagerTabStrip
+                    android:id="@+id/tab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:foregroundGravity="top"
+                    android:background="@color/colorAccent">
+                </android.support.v4.view.PagerTabStrip>
+            </android.support.v4.view.ViewPager>
+        </RelativeLayout>
+    </FrameLayout>
+</RelativeLayout>

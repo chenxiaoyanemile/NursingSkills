@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.hulijinengtong.activity.MainPageActivity">
+
+    <include layout="@layout/toolbar_practice"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/middle"
+        android:background="@color/white" >
+    </FrameLayout>
+
+    <View
+        android:id="@+id/middle"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_above="@+id/tab_main"
+        android:background="@color/color_dddddd" />
+
+    <RadioGroup
+        android:id="@+id/tab_main"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/btn_main_practice"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/practice_court"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:background="@color/colorAccent"
+            android:button="@android:drawable/list_selector_background"
+            android:textSize="24sp"
+            android:layout_weight="0.25"/>
+
+        <RadioButton
+            android:id="@+id/btn_main_check"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/check_court"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:background="@color/colorAccent"
+            android:layout_weight="0.25"
+            android:button="@android:drawable/list_selector_background"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/btn_main_pk"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/pk_court"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:background="@color/colorAccent"
+            android:layout_weight="0.25"
+            android:button="@android:drawable/list_selector_background"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/btn_main_me"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="@string/my"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:background="@color/colorAccent"
+            android:layout_weight="0.25"
+            android:button="@android:drawable/list_selector_background"
+            android:textSize="24sp" />
+    </RadioGroup>
+
+</RelativeLayout>

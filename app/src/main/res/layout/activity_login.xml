@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    tools:context="com.example.lenovo.hulijinengtong.activity.LoginActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip"
+        android:src="@mipmap/ic_logo"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_login_userName"
+            android:textColor="@color/color_404040"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/cgt_et_userName"
+            style="@style/cgt_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/text_hint_login_userName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_login_pwd"
+            android:textColor="@color/color_404040"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/cgt_et_password"
+            style="@style/cgt_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/text_hint_login_pwd"
+            android:inputType="textPassword" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/cgt_btn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dip"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:text="@string/text_login_btn"
+        tools:ignore="RtlHardcoded" />
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="10dp"
+            />
+
+    <Button
+        android:id="@+id/btn_regist"
+        style="@style/cgt_btn"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dip"
+        android:layout_marginRight="20dp"
+        android:text="@string/text_regist_btn"
+        tools:ignore="RtlHardcoded" />
+        </LinearLayout>
+</LinearLayout>

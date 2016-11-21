@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">护理技能通</string>
+    <!-- 注册 -->
+    <string name="text_regist_userName">登\u0020\u0020录\u0020\u0020名:</string>
+    <string name="text_regist_nickName">学\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020号:</string>
+    <string name="text_regist_pwd">密\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020码:</string>
+    <string name="text_regist_confirmPwd">确认密码:</string>
+    <string name="text_menu_regist_title">注册</string>
+    <string name="text_hint_regist_userName">请输入用户名</string>
+    <string name="text_hint_regist_nickName">请输入昵称</string>
+    <string name="text_hint_regist_pwd">6~20位字母、数字、符号</string>
+    <string name="text_hint_regist_rpwd">重复密码</string>
+
+    <!-- 登陆 -->
+    <string name="text_login_btn">登\u0020\u0020录</string>
+    <string name="text_regist_btn">注\u0020\u0020册</string>
+    <string name="text_login_userName">用户名:</string>
+    <string name="text_login_pwd">密\u0020\u0020\u0020\u0020码:</string>
+    <string name="text_hint_login_pwd">6~20位字母、数字、符号</string>
+    <string name="text_hint_login_userName">手机号/邮箱/昵称</string>
+
+    <!-- 首页 -->
+    <string name="practice_court">练习场</string>
+    <string name="check_court">考核场</string>
+    <string name="pk_court">P K场</string>
+    <string name="my">我</string>
+
+    <!-- 练习场 -->
+    <string name="PracticePrimaryFragment">初级场</string>
+    <string name="PracticeMiddleFragment">中级场</string>
+    <string name="PracticeHighFragment">高级场</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

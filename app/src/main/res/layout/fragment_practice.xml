@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lenovo.hulijinengtong.fragment.PracticeFragment">
+
+    <include layout="@layout/toolbar_practice"/>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="6dp"
+        android:numColumns="3"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:verticalSpacing="6dp" />
+
+    <ImageView
+        android:id="@+id/image_view_practice"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:clickable="true"
+        tools:ignore="ContentDescription" />
+
+</FrameLayout>
